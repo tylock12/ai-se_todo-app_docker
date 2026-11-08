@@ -49,7 +49,7 @@ export default function App() {
 
   return (
     <div className="container">
-      <h1>Todo App</h1>
+      <h1>Todo App V2</h1>
 
       <form onSubmit={addTodo} className="add-form">
         <input
