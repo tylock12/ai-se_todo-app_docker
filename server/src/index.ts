@@ -3,6 +3,8 @@ import cors from "cors";
 import mongoose from "mongoose";
 import todoRoutes from "./routes/todos";
 
+ const unused = "this will fail lint";
+
 const app = express();
 const PORT = process.env.PORT || 3001;
 const MONGO_URI = process.env.MONGO_URI;
